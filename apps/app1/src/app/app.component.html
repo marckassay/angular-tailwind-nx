@@ -1,8 +1,8 @@
 <div class="font-mono">
-  <angular-tailwind-nx-header></angular-tailwind-nx-header>
+  <angular-tailwind-nx-header>{{title}}</angular-tailwind-nx-header>
 
   <main
-    class="max-w-xl md:max-w-2xl lg:max-w-6xl mx-auto py-xl px-md md:px-xl grid grid-cols-1 gap-md md:grid-cols-2 lg:grid-cols-3"
+    class="max-w-xl md:max-w-2xl lg:max-w-6xl mx-auto py-xl px-md md:px-xl grid grid-cols-1 gap-md md:grid-cols-2 lg:grid-cols-4"
   >
     <angular-tailwind-nx-card title="Angular" url="https://angular.io/">
       Angular is an application design framework and development platform for
@@ -21,6 +21,11 @@
     <angular-tailwind-nx-card title="Nx" url="https://nx.dev/">
       Nx is a smart, fast and extensible build system with first class monorepo
       support and powerful integrations.
+    </angular-tailwind-nx-card>
+
+    <angular-tailwind-nx-card title="Storybook" url="https://storybook.js.org/">
+      Storybook is an open source tool for building UI components and pages in
+      isolation. It streamlines UI development, testing, and documentation.
     </angular-tailwind-nx-card>
   </main>
 </div>
