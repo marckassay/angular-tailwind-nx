@@ -1,0 +1,7 @@
+.header {
+    @apply px-xl py-md bg-primary-light shadow-md;
+}
+
+.strong {
+    @apply font-bold text-xl;
+}
