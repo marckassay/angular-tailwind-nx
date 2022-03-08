@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
+export interface Header { 
+  strong: boolean;
+}
 
 @Component({
   selector: 'angular-tailwind-nx-header',
@@ -7,6 +11,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  @Input()
+  strong: boolean = false;
+  
   constructor() { }
 
   ngOnInit(): void {
