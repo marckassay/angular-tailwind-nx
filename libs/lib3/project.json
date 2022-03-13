@@ -65,14 +65,14 @@
       "configurations": {
         "production": {
           "commands": [
-            "node -e \"require('fs').rmSync('dist/libs/lib3', {recursive: true, force: true})\"",
+            "node tools/scripts/remove-dir.js dist/libs/lib3",
             "nx run lib3:build-lib:production"
           ],
           "parallel": false
         },
         "development": {
           "commands": [
-            "node -e \"require('fs').rmSync('dist/libs/lib3', {recursive: true, force: true})\"",
+            "node tools/scripts/remove-dir.js dist/libs/lib3",
             "nx run lib3:build-lib:development"
           ],
           "parallel": false
