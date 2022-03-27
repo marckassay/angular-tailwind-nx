@@ -22,12 +22,12 @@
       "executor": "@nrwl/storybook:storybook",
       "options": {
         "uiFramework": "@storybook/angular",
-        "styles": ["apps/app1/src/styles.css"],
+        "styles": ["libs/lib1/src/styles.css"],
         "port": 4400,
         "config": {
           "configFolder": "libs/lib1/.storybook"
         },
-        "projectBuildConfig": "app1:build-storybook"
+        "projectBuildConfig": "lib1:build-storybook"
       },
       "configurations": {
         "ci": {
@@ -40,12 +40,12 @@
       "outputs": ["{options.outputPath}"],
       "options": {
         "uiFramework": "@storybook/angular",
-        "styles": ["apps/app1/src/styles.css"],
+        "styles": ["libs/lib1/src/styles.css"],
         "outputPath": "dist/storybook/lib1",
         "config": {
           "configFolder": "libs/lib1/.storybook"
         },
-        "projectBuildConfig": "app1:build-storybook"
+        "projectBuildConfig": "lib1:build-storybook"
       },
       "configurations": {
         "ci": {
