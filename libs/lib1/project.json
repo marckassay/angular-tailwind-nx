@@ -22,7 +22,7 @@
       "executor": "@nrwl/storybook:storybook",
       "options": {
         "uiFramework": "@storybook/angular",
-        "styles": ["libs/lib1/src/styles.css"],
+        "styles": ["libs/lib3/src/styles/indigo.css"],
         "port": 4400,
         "config": {
           "configFolder": "libs/lib1/.storybook"
@@ -40,7 +40,7 @@
       "outputs": ["{options.outputPath}"],
       "options": {
         "uiFramework": "@storybook/angular",
-        "styles": ["libs/lib1/src/styles.css"],
+        "styles": ["libs/lib3/src/styles/indigo.css"],
         "outputPath": "dist/storybook/lib1",
         "config": {
           "configFolder": "libs/lib1/.storybook"
